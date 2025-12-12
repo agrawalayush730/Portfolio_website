@@ -121,9 +121,6 @@ export const siteConfig = {
         "Completed advanced coursework in ML, NLP, Big Data, and Analytics",
       ],
     },
-    {
-      school:"Mount Olympus"
-    },
   ],
 };
 
