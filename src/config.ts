@@ -7,7 +7,7 @@ export const siteConfig = {
 
   social: {
     email: "agrawalayush730@gmail.com",
-    linkedin: "https://www.linkedin.com/in/ayush-agrawal/",
+    linkedin: "www.linkedin.com/in/ayush-agrawal-590254253",
     twitter: "https://x.com/agrawalayush730",
     github: "https://github.com/agrawalayush730",
   },
@@ -40,7 +40,7 @@ export const siteConfig = {
       name: "MutualFundAI — Intent & NER Engine",
       description:
         "BERT-based intent classifier and NER engine for mutual fund queries, integrated with FastAPI to automate SIP creation and portfolio actions.",
-      link: "https://github.com/agrawalayush730/Mutual_Fund_Intent_Entity",
+      link: "https://github.com/agrawalayush730/MutualFundAI",
       skills: ["BERT", "Transformers", "FastAPI", "Docker", "MySQL"],
     },
     {
@@ -67,7 +67,7 @@ export const siteConfig = {
       name: "NIFTY50 Mean Reversion Backtest",
       description:
         "Backtesting framework implementing MACD, OBV, and mean-reversion strategies with optimization, trade logs, and detailed performance reports using Backtrader.",
-      link: "https://github.com/agrawalayush730/NIFTY50_Backtest",
+      link: "https://github.com/agrawalayush730/nifty50-mean-reversion-strategy",
       skills: ["Backtrader", "Pandas", "Optimization"],
     },
     {
@@ -81,13 +81,13 @@ export const siteConfig = {
 
   experience: [
     {
-      company: "BlueAltair (ICICI Prudential AMC)",
+      company: "BlueAltair (Deployed at ICICI Prudential AMC)",
       title: "AI Engineer",
-      dateRange: "2024 - Present",
+      dateRange: "2025 - Present",
       bullets: [
         "Built agentic AI voice bot for SIP renewal using LiveKit and multi-agent LLM workflows",
-        "Developed production LLM pipelines for intent classification and entity extraction",
-        "Integrated FastAPI microservices with MySQL for automated investment operations",
+        "Developed AI Agents for UI/UX enhancement of communications produced via all digital platforms of ICICI AMC",
+        "Automated development of Montly mailer communication by  ",
       ],
     },
     {
@@ -114,7 +114,7 @@ export const siteConfig = {
     {
       school: "SP Jain School of Global Management",
       degree: "Bachelor's in Data Science & Business Analytics",
-      dateRange: "2021 - 2025",
+      dateRange: "2022 - 2025",
       achievements: [
         "Class Representative — First Semester",
         "Entertainer of the Year Award — First Year",
