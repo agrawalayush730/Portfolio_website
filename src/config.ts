@@ -1,91 +1,124 @@
 export const siteConfig = {
   name: "Ayush Agrawal",
-  title: "AI & Data Science Analyst",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  title: "AI & ML Engineer — NLP, LLMs, Agentic AI",
+  description:
+    "AI Engineer building production-ready NLP pipelines, LLM-based applications, semantic search systems, and agentic AI solutions for finance and analytics.",
+  accentColor: "#7c3aed",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "agrawalayush730@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ayush-agrawal/",
+    twitter: "https://x.com/agrawalayush730",
+    github: "https://github.com/agrawalayush730",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm an AI Engineer specializing in NLP, LLMs, and agentic AI systems. I build reliable, production-grade pipelines using FastAPI, Hugging Face Transformers, FAISS, and modern MLOps practices. My work focuses on financial applications such as semantic search, SIP automation, investment intelligence, and real-world text understanding. I enjoy turning research into scalable systems that deliver measurable impact.",
+
+  skills: [
+    "Python",
+    "Transformers",
+    "Hugging Face",
+    "LLM Engineering",
+    "NLP",
+    "NER",
+    "BERT",
+    "SentenceTransformers",
+    "RAG",
+    "FAISS",
+    "FastAPI",
+    "Docker",
+    "SQL",
+    "MongoDB",
+    "Backtrader",
+    "AWS",
+    "Azure",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "MutualFundAI — Intent & NER Engine",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "BERT-based intent classifier and NER engine for mutual fund queries, integrated with FastAPI to automate SIP creation and portfolio actions.",
+      link: "https://github.com/agrawalayush730/Mutual_Fund_Intent_Entity",
+      skills: ["BERT", "Transformers", "FastAPI", "Docker", "MySQL"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "FeedbackNLP — App Feedback Analyzer",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Aspect-based sentiment analysis system for mobile app reviews, extracting categories, sentiments, and severity scoring using zero-shot and embedding-based NLP.",
+      link: "https://github.com/agrawalayush730/FeedbackNLP",
+      skills: [
+        "Zero-shot",
+        "Transformers",
+        "SentenceTransformers",
+        "FastAPI",
+        "MongoDB",
+      ],
     },
     {
-      name: "ExtensionKit",
+      name: "FinDocAI — Annual Report Semantic Search",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Semantic search over annual reports using PDF parsing, chunking, FAISS vector search, and FastAPI-based RAG pipelines for finance question answering.",
+      link: "https://github.com/agrawalayush730/FinDocAI",
+      skills: ["FAISS", "SentenceTransformers", "FastAPI", "PDF Parsing", "RAG"],
+    },
+    {
+      name: "NIFTY50 Mean Reversion Backtest",
+      description:
+        "Backtesting framework implementing MACD, OBV, and mean-reversion strategies with optimization, trade logs, and detailed performance reports using Backtrader.",
+      link: "https://github.com/agrawalayush730/NIFTY50_Backtest",
+      skills: ["Backtrader", "Pandas", "Optimization"],
+    },
+    {
+      name: "SIP Renewal Voice Bot — Multi-Agent System (In Progress)",
+      description:
+        "Agentic SIP renewal voice bot using LiveKit, LLM reasoning, and multi-agent orchestration. Automates investor verification, offer generation, and rebuttal handling.",
+      link: "https://github.com/agrawalayush730", // Replace with repo once public
+      skills: ["Agentic AI", "LiveKit", "LLMs", "Voice AI"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "BlueAltair (ICICI Prudential AMC)",
+      title: "AI Engineer",
+      dateRange: "2024 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Built agentic AI voice bot for SIP renewal using LiveKit and multi-agent LLM workflows",
+        "Developed production LLM pipelines for intent classification and entity extraction",
+        "Integrated FastAPI microservices with MySQL for automated investment operations",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "FactSet",
+      title: "NLP & Data Engineering Intern",
+      dateRange: "2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Developed NLP workflows for extracting structured insights from financial documents",
+        "Optimized datasets and pipelines used for financial analytics and downstream ML tasks",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "PromoDome Digital",
+      title: "Data Science Intern",
+      dateRange: "2023",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Built analytics pipelines for marketing insights and content performance",
+        "Automated data preparation workflows improving reporting efficiency",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "SP Jain School of Global Management",
+      degree: "Bachelor's in Data Science & Business Analytics",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Class Representative — First Semester",
+        "Entertainer of the Year Award — First Year",
+        "Completed advanced coursework in ML, NLP, Big Data, and Analytics",
       ],
     },
   ],
