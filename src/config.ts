@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ayush Agrawal",
-  title: "AI & ML Engineer — NLP, LLMs, Agentic AI",
+  title: "AI & ML Engineer — LLMs, NLP, Agentic AI",
   description:
     "AI Engineer building production-ready NLP pipelines, LLM-based applications, semantic search systems, and agentic AI solutions for finance and analytics.",
   accentColor: "#7c3aed",
@@ -81,13 +81,13 @@ export const siteConfig = {
 
   experience: [
     {
-      company: "BlueAltair (Deployed at ICICI Prudential AMC)",
+      company: "ICICI Prudential Amc (Contract - Blue Altair)",
       title: "AI Engineer",
       dateRange: "2025 - Present",
       bullets: [
         "Built agentic AI voice bot for SIP renewal using LiveKit and multi-agent LLM workflows",
         "Developed AI Agents for UI/UX enhancement of communications produced via all digital platforms of ICICI AMC",
-        "Automated development of Montly mailer communication by  ",
+        "Automated development of Montly mailer communication by developing dedicated services on marketing portal. ",
       ],
     },
     {
