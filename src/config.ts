@@ -104,7 +104,6 @@ export const siteConfig = {
       title: "Research Intern",
       dateRange: "2023",
       bullets: [
-        "Applied NLP and Topic Modeling on Hydrogen Dataset for research insights."
         "Built analytics pipelines for marketing insights and content performance",
         "Automated data preparation workflows improving reporting efficiency",
       ],
