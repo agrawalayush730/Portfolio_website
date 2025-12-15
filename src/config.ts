@@ -105,9 +105,8 @@ export const siteConfig = {
       dateRange: "2023",
       bullets: [
         "Applied NLP and Topic Modeling on Hydrogen Dataset for research insights.",
-        "Implemented Latent Dirichlet Allocation (LDA) for topic modeling.",
-        "Developed TF-IDF for term ranking and coherence testing for accuracy validation.",
-        "Analyzed text-based sentiment trends to uncover research insights."
+        "Implemented Latent Dirichlet Allocation (LDA) for topic modeling and Developed TF-IDF for term ranking and coherence testing",
+        "Analyzed text-based sentiment trends to uncover research insights.",
       ],
     },
   ],
